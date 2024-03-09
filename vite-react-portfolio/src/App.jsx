@@ -6,7 +6,6 @@ import Contact from './components/pages/contact';
 import Projects from './components/pages/projects';
 
 function App() {
-  // const [count, setCount] = useState(0)
 
   return (
       <Router>
