@@ -4,6 +4,9 @@ import './App.css'
 import NavTabs from './components/NavTabs';
 import Contact from './components/pages/contact';
 import Projects from './components/pages/projects';
+import { Container, Row, Col } from 'react-bootstrap';
+import imageSrc from './components/images/search.png';
+import AboutMe from './components/pages/AboutMe';
 
 function App() {
 
@@ -11,13 +14,16 @@ function App() {
       <Router>
         <NavTabs />
 
+
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+         {/* <Route path="/" element={<Home />} /> */}
         <Route path="contact" element={<Contact />} />
         <Route path="projects" element={<Projects />} />
 
       </Routes>
       </Router>
+
+
   )
 }
 
