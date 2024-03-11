@@ -11,10 +11,10 @@ import image6 from '../images/quiz.png';
 function Projects() {
   return (
     <div>
-      <h1 style={{ margin: '10px', paddingTop: "10px", fontSize: "50px" }}>MY PROJECTS</h1>
+      <Container style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+      <Col md={12}><h1 style={{ margin: '10px', paddingTop: "10px", fontSize: "50px", flexDirection: 'column', textAlign: 'center' }}>MY PROJECTS</h1></Col>
 
-      <Container style={{ padding: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-      <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
+        <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
         <Card style={{ width: '350px', margin: '10px', position: 'relative' }}>
           <Card.Img src={image1} style={{ height: '200px' }} />
           <Card.Body>
