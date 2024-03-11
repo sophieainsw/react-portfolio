@@ -12,7 +12,7 @@ function App() {
       <Router>
         <NavTabs />
 
-      <main>
+      <main >
       <Routes>
         <Route path="/" element={<About />} />
         <Route path="contact" element={<Contact />} />
@@ -22,7 +22,12 @@ function App() {
       </Routes>
       </main>
       </Router>
+
+      <footer className='footer mt-auto py-3 bg-dark text-white'>
+        <div className='container'>Created by Sophie Ainsworth 2024 </div>
+      </footer>
       </div>
+      
 
   )
 }

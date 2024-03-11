@@ -3,6 +3,7 @@
   flex-direction: column;
   min-height: 100vh;
   background-color: #f2f2f2;
+  width: 1280px;
 }
 
 main {
@@ -11,6 +12,7 @@ main {
 main {
   padding: 20px;
 }
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -21,4 +23,8 @@ main {
 
 .card {
   padding: 2em;
+}
+
+.nav-link.active {
+  color: black; 
 }

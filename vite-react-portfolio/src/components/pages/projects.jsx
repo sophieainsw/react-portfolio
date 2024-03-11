@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button, Card, Container, Col, Row } from 'react-bootstrap';
 import '../../App.css';
-import imageSrc from '../images/search.png';
 import image1 from '../images/search.png';
 import image2 from '../images/weather.png';
 import image3 from '../images/sched.png';
@@ -12,8 +11,9 @@ import image6 from '../images/quiz.png';
 function Projects() {
   return (
     <div>
-      <h1 style={{ color: "grey", margin: '10px' }}>My Projects</h1>
+      <h1 style={{ margin: '10px', paddingTop: "10px", fontSize: "50px" }}>MY PROJECTS</h1>
 
+      <Container style={{ padding: '40px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
         <Card style={{ width: '350px', margin: '10px', position: 'relative' }}>
           <Card.Img src={image1} style={{ height: '200px' }} />
@@ -24,7 +24,7 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://adam-deb.github.io/project-1/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+                <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
@@ -39,7 +39,7 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://sophieainsw.github.io/weather-dashboard/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+              <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
@@ -54,7 +54,7 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://sophieainsw.github.io/work-day-scheduler/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+              <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
@@ -71,7 +71,7 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://sophieainsw.github.io/password-challenge/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+              <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
@@ -87,7 +87,7 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://sophieainsw.github.io/bootstrap-portfolio/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+              <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
@@ -102,13 +102,14 @@ function Projects() {
             </Card.Text>
             <div style={{ position: 'absolute', bottom: '20px', left: '50%', transform: 'translateX(-50%)' }}>
               <a href="https://sophieainsw.github.io/codequiz/" target="_blank">
-                <Button style={{ backgroundColor: 'grey', color: 'white', border: 'none' }}> Open Project </Button>
+              <Button style={{ backgroundColor: 'black', color: 'white', border: 'none' }}> OPEN PROJECT </Button>
               </a>
             </div>
           </Card.Body>
         </Card>
+        
       </div>
-
+      </Container>
     </div>
   );
 }
