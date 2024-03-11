@@ -1,10 +1,11 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Container, Col, Row } from 'react-bootstrap';
 
 function Contact() {
   return (
-    <div>
-      <h1 style={{ color: "grey", margin: '10px' }}>Contact Me</h1>
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh'}}>
+      <Container style={{ padding: "40px"}}>
+      <h1 style={{ color: "grey", margin: '30px' }}>Contact Me</h1>
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
 
 
@@ -49,9 +50,9 @@ function Contact() {
               </a>
             </div>
           </Card.Body>
-        </Card>
+        </Card>      
       </div>
-
+      </Container>
     </div>
   );
 }

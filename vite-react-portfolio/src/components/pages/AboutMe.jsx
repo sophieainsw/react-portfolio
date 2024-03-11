@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card } from 'react-bootstrap';
+import { Button, Card, Container, Col, Row } from 'react-bootstrap';
 
 function AboutMe() {
   return (
